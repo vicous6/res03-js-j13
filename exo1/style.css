@@ -1,0 +1,30 @@
+
+.green {
+    color:blue;
+    list-style-type:none;
+}
+.red {
+    color:black;
+    list-style-type:none;
+}
+form{
+    height:20vh;
+   
+}
+#app{
+    
+}
+
+
+header{
+    width:100vw;
+    height:10vh;
+}
+main{
+     width:100vw;
+      height:85vh;
+}
+footer{
+     width:100vw;
+      height:5vh;
+}

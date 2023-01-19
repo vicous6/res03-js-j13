@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS Jour 4</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body >
+
+  <section id="app" id = "section">
+   
+    <!--<header>-->
+    <!--<h2 class="title">UTILISATEURS</h2>-->
+    <!--<i class="bi bi-caret-down-square"></i>-->
+    <!--</header>-->
+    <!--<ul class="liste hide">-->
+    <!--  <li>LISTE DES UTILISATEURS</li>-->
+    <!--  <li>AJOUTER UN UTILISATEUR</li>-->
+    <!--  <li>STATISTIQUES UTILISATEURS</li>-->
+    <!--</ul>-->
+    <!--  <header>-->
+    <!--<h2 class="title">PRODUITS</h2>-->
+    <!--<i class="bi bi-caret-down-square"></i>-->
+    <!--</header>-->
+    <!--<ul class="liste hide">-->
+    <!--  <li>LISTE DES PRODUITS</li>-->
+    <!--  <li>AJOUTER UN PRODUIT</li>-->
+    <!--  <li>STATISTIQUES DES PRODUITS</li>-->
+    <!--</ul>-->
+    <!--  <header>-->
+    <!--<h2 class="title">CATEGORIES</h2>-->
+    <!--<i class="bi bi-caret-down-square"></i>-->
+    <!--</header>-->
+    <!--<ul class="liste hide">-->
+    <!--  <li>LISTE DES CATÉGORIES DE PRODUITS</li>-->
+    <!--  <li>AJOUTER UNE CATÉGORIE DE PRODUITS</li>-->
+      
+    <!--</ul>-->
+  </section>
+  <section class="border-right" id= "section2">
+ <i  id = "menu-hide"class="bi bi-arrow-bar-left fa-6x"></i>
+    <figure>
+    <img src= "https://res03.sites.3wa.io/assets/files/js/j5/demo/assets/logo.svg">
+    </figure>
+  </section>
+  <section>
+
+  </section>
+  <section id = "section4">
+    <h2>LISTE DES UTILISATEURS</h2>
+    <button id ="button"><span class="bi-person-fill-down" aria-labelledby="Inactif"></span> Ajouter un utilisateur</button>
+    <table id = "table">
+      <thead>
+        <tr>
+          <td>#</td>
+          <td>Nom</td>
+          <td>Age</td>
+          <td>Actif</td>
+          <td>Action</td>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>-->
+        <!--  <td>0</td>-->
+        <!--  <td>Marsh Obrien</td>-->
+        <!--  <td>24</td>-->
+        <!--  <td><span class="bi-person-fill-down" aria-labelledby="Inactif"></span></td>-->
+        <!--  <td>-->
+        <!--   <a href="https://res03.sites.3wa.io/assets/files/js/j5/demo/etape-3/index.html"> <span class="bi-eye" aria-labelledby="Voir l'utilisateur"></span></a>-->
+        <!--     <a href="https://res03.sites.3wa.io/assets/files/js/j5/demo/etape-3/index.html"> <span class="bi-pen" aria-labelledby="Modifier l'utilisateur"></span></a>-->
+        <!--     <a href="https://res03.sites.3wa.io/assets/files/js/j5/demo/etape-3/index.html"> <span class="bi-trash3" aria-labelledby="Supprimer l'utilisateur"></span></a>-->
+        <!--  </td>-->
+        <!--</tr>-->
+        
+     
+        <!-- <tr>-->
+        <!--  <td>0</td>-->
+        <!--  <td>Marsh Obrien</td>-->
+        <!--  <td>24</td>-->
+        <!--  <td><span class="bi-person-fill-down" aria-labelledby="Inactif"></span></td>-->
+        <!--  <td>-->
+        <!--  <a href="https://res03.sites.3wa.io/assets/files/js/j5/demo/etape-3/index.html">  <span class="bi-eye" aria-labelledby="Voir l'utilisateur"></span></a>-->
+        <!--   <a href="https://res03.sites.3wa.io/assets/files/js/j5/demo/etape-3/index.html"> <span class="bi-pen" aria-labelledby="Modifier l'utilisateur"></span></a>-->
+        <!--   <a href="https://res03.sites.3wa.io/assets/files/js/j5/demo/etape-3/index.html"> <span class="bi-trash3" aria-labelledby="Supprimer l'utilisateur"></span></a>-->
+            
+        <!--    </td>-->
+        <!--</tr>-->
+        
+      </tbody>
+      
+    </table>
+  </section>
+  <section class = "hide" id = "validation">
+      <article>
+        <h3>Êtes-vous sûr-e de vouloir supprimer cet utilisateur ?</h3>
+        <p id ="data"></p>
+        <button id ="cancel">ANNULER</button>
+        <button>CONFIRMER</button>
+      </article>
+  </section>
+</body>
+<script type="module" src="index.js"></script>
+
+</html>
